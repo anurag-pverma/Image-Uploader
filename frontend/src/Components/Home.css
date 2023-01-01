@@ -1,0 +1,17 @@
+.container{
+    height: 60px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.links{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: maroon;
+    margin: 2px;
+    padding: 2px;
+}
+
