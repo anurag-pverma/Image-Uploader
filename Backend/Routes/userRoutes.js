@@ -5,7 +5,7 @@ const User = require("../Models/User");
 
 const userRouter = Router();
 
-userRouter.get('/:userId1', async(req, res)=>{
+userRouter.get('/:userId', async(req, res)=>{
     const {userId} = req.params;
     const user = await User.findById(userId)
     if(user){

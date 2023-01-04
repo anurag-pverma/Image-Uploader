@@ -6,7 +6,6 @@ function Home() {
     <div>
 
         <div className="container">
-
             <Link className='links' to={''}>Instagram</Link>
             <nav className='navlink'>
                 <span>
